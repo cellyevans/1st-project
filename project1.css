@@ -1,0 +1,94 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+html {
+    font-size: 75%;
+}
+body {
+    font-size: 2rem;
+    overflow: scroll;
+    align-items: center;
+    background-color: green;
+
+   
+    
+}
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+.con {
+    background-color: aliceblue;
+    width: 70%;
+    position: absolute;
+    left: 15% ;
+    /* right: 50%; */
+    
+   
+}
+.container {
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-color: white; */
+    width: 70%;
+    /* position: absolute; */
+    height: 100%;
+    
+
+}
+.form {
+   margin: 3rem;
+}
+.form input{
+    display: flex;
+    width: 50%;
+    height: 4rem;
+    text-transform: capitalize;
+    margin: 2rem;
+}
+.radio {
+    display: flex;
+    flex-direction: column;
+    
+
+    
+    
+}
+.radio input {
+    
+}
+h3 {
+    text-transform: capitalize;
+    margin: 2rem;
+}
+.web {
+    text-transform: capitalize;
+    
+}
+.comment{
+    text-transform: capitalize;
+    margin: 2rem;
+}
+.comment input {
+    text-transform: capitalize;
+    display: flex;
+    height: 5rem;
+    width: 40rem;
+    margin: 2rem;
+}
+
+button {
+    margin: 10rem ;
+     height: 4rem ;
+     width: 100%;
+     background-color: green;
+     cursor: pointer;
+     border: none;
+     outline: none;
+     border-radius: 5px;
+
+}
